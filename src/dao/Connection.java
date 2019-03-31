@@ -24,7 +24,7 @@ public class Connection {
 
     public void open() {
         try {
-            this.obj = Db4o.openFile("C:\\Users\\LLira\\Desktop\\databases_db4o\\DB_AppDB4o.yap");
+            this.obj = Db4o.openFile("DB_AppDB4o.yap");
         } catch (Exception e) {
             System.out.println("Error aqui: " + e);
         }
